@@ -1,8 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## OpenAI SQL Query Generator
+![Screenshot 2022-12-03 232340](https://user-images.githubusercontent.com/73233808/205457806-00fd1dd0-f5c7-4518-8d54-495eb912264d.png)
 
-First, run the development server:
+
+Demo link : https://openai-sql-query-generator.vercel.app/
+
+---
+
+## About
+
+OpenAI is an artificial intelligence research laboratory dedicated to researching and developing intelligent agents and technologies to benefit humanity. It is focused on developing artificial general intelligence (AGI) that can learn to solve tasks across a wide range of disciplines, from games to robotics to natural language processing. The research conducted at OpenAI has applications in many areas, such as healthcare, finance, education, and more. In addition, OpenAI is committed to making its AI technology accessible to everyone, with a focus on fairness and inclusion.
+
+SQL Query Generator is a tool developed by OpenAI that enables users to quickly generate SQL queries for various databases and tables. It is especially useful for beginners who are unfamiliar with the syntax of the language and need help constructing a valid query. The generator will provide the SQL code for the desired query, and users can modify it as needed. It also provides options for customizing the query, such as adding filters, sorting, and grouping.
+
+OpenAI  with Next.js, developers can use OpenAI with React components to build powerful, dynamic applications. OpenAI can be used to build custom AI models, such as natural language processing models, text classification models, and image recognition models. These models can be used to power interactive features, such as auto-complete search boxes, personalized content, or automated customer service. OpenAI can also be used to train machine learning models for predictive analytics and to improve the user experience.
+
+---
+First Install the required dependencies : 
+```
+yarn install 
+or 
+npm install
+```
+setup the environment variable : 
+```
+OPENAI_API_KEY = 'YOUR_API_KEY'
+```
+then run the development server:
 
 ```bash
 npm run dev
@@ -12,23 +36,4 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
